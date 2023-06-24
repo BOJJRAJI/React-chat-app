@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.chat-bg-container {
+  background-color: #e6eeff;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+.details-chat-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 200px;
+}
+@media screen and (max-width: 576px) {
+  .details-chat-container {
+    margin-left: 10px;
+  }
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+.unorderd-charts-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.heading {
+  font-size: 23px;
+  color: #00081a;
+  font-family: 'Roboto';
+}
+.description {
+  font-size: 13px;
+  color: #a6a6a6;
+  font-family: 'Roboto';
+}
+.charts-container {
+  max-width: 400px;
+}
+.text-like-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+@media screen and (max-width: 576px) {
+  .text-like-container {
+    width: 80%;
+  }
+}
+.input-box {
+  border: 2px solid #666666;
+  padding: 5px;
+  width: 20%;
+  background-color: transparent;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 576px) {
+  .input-box {
+    width: 60%;
+  }
+}
+
+.send-button {
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #1a1aff;
+  border: none;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.user-name {
+  font-size: 23px;
+  color: #00081a;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.message {
+  font-size: 15px;
+  color: #303036;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.like-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 2px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+}
